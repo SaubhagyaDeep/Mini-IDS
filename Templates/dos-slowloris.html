@@ -1,0 +1,42 @@
+<!-- slowloris.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slowloris Attack</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Slowloris Attack</h1>
+    </header>
+    <section class="content-section">
+        <div>
+        <p>
+            <h2>About</h2>
+            Slowloris is a type of denial-of-service attack designed to keep a web server
+            connection open and hold it indefinitely. It achieves this by sending partial
+            HTTP requests to the target server and keeping the connections open by sending
+            occasional incomplete request headers.
+        </p>
+        </div>
+        <div>
+        <p>
+            <h2>Impact</h2>
+            Slowloris attacks can exhaust a web server's resources, leading to a
+            significant decrease in its ability to serve legitimate requests and causing
+            a denial-of-service condition.
+        </p>
+        </div>
+        <div>
+        <p>
+            <h2>Mitigation</h2>
+            To defend against Slowloris attacks, web servers can implement
+            various countermeasures such as setting connection timeouts, limiting the
+            number of concurrent connections, and deploying intrusion detection systems.
+        </p>
+        </div>
+    </section>
+</body>
+</html>

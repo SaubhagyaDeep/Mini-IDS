@@ -1,0 +1,143 @@
+/* *{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    margin: 120px;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    background-image: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148865393.jpg?size=626&ext=jpg&ga=GA1.1.872410005.1702221916&semt=ais");
+}
+
+.container{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:aliceblue;
+}
+
+.container h2 {
+    color: rgb(60, 96, 186);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.container form {
+    height: 150px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px dashed rgb(83, 108, 153);
+    margin-left: 1px;
+    padding-left: 22px;
+}
+
+input[type="file" i] {
+    cursor: pointer;
+    align-items: center;
+    text-overflow: ellipsis;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+input[type="submit" i] {
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-top: 100px;
+    padding-block: 5px;
+    padding-inline: 6px;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+}
+
+p {
+    display: inline-block;
+    padding-left: 100px;
+} */
+
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    margin: 120px;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    background-image: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148865393.jpg?size=626&ext=jpg&ga=GA1.1.872410005.1702221916&semt=ais");
+}
+
+.container{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:aliceblue;
+}
+
+.container h2 {
+    color: rgb(60, 96, 186);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.container form {
+    height: 150px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px dashed rgb(83, 108, 153);
+    margin-left: 1px;
+    padding-left: 22px;
+}
+
+input[type="file" i] {
+    cursor: pointer;
+    align-items: center;
+    text-overflow: ellipsis;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+input[type="submit" i] {
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-top: 100px;
+    padding-block: 5px;
+    padding-inline: 6px;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+}
+
+p {
+    display: inline-block;
+    padding-left: 100px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+    <link rel="stylesheet" href="/static/home.css">
+</head>
+<body>
+<div class="container">
+    <h2>Browse File to Upload</h2>
+    <form method="post" action="/predict" enctype="multipart/form-data">
+        
+        <p>
+        <input type="file" name="file" accept=".csv">
+        </p>
+        <p>
+        <input type="submit" value="Submit">
+        </p>
+
+        {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+    </form>
+</div>
+</body>
+</html>

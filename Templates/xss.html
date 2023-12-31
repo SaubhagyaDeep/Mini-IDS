@@ -1,0 +1,41 @@
+<!-- xss-info.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XSS (Cross-Site Scripting) Attack</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>XSS (Cross-Site Scripting) Attack</h1>
+    </header>
+    <section class="content-section">
+        <div>
+        <p>
+            <h2>About</h2>
+            Cross-Site Scripting (XSS) is a type of security vulnerability that allows attackers
+            to inject malicious scripts into web pages viewed by other users. These scripts can
+            be executed in the context of a user's browser, leading to the theft of sensitive
+            information, session hijacking, or defacement of websites.
+        </p>
+        </div>
+        <div>
+        <p>
+            <h2>Types</h2>
+            There are two main types of XSS - Stored XSS involves injecting malicious scripts
+            permanently into a website, while Reflected XSS involves tricking a user into clicking
+            a specially crafted link.
+        </p>
+        </div>
+        <div>
+        <p>
+            <h2>Mitigation</h2>
+            Developers can prevent XSS by validating and sanitizing user input, using secure
+            coding practices, and implementing Content Security Policy (CSP) headers.
+        </p>
+        </div>
+    </section>
+</body>
+</html>
